@@ -228,7 +228,7 @@ object MaximumNumMultiplySolution {
 
 ```
 /**
- * 代码重构
+ * 代码重构。
  */
 private List<Task> sortByTime(List<Task> list) {
     Collections.sort(list, (lhs, rhs) -> {
