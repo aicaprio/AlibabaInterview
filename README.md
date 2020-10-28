@@ -2,9 +2,7 @@
 
 ```
 /**
- * @Author 王硕
- * @Create 2020-10-28
- * @Desc 实现一个 LRU 容器，丢弃近期最少访问的元素。
+ * 实现一个 LRU 容器，丢弃近期最少访问的元素。
  */
 class LRUCache(/* 最大缓存数 */ private val maxSize: Int) {
 
@@ -142,9 +140,6 @@ class LRUCache(/* 最大缓存数 */ private val maxSize: Int) {
 
 ```
 /**
- * @Author 王硕
- * @Create 2020-10-28
- * @Desc
  * 假设有面值 1、2、5 的三种硬币，数量无限。现在输入一个正整数 n，问所需硬币数量最少需要多少？
  * 只需要硬币总数，不必枚举每种硬币的个数。
  * 进一步的问题，如果硬币的个数与面额发生变化改如何解？比如 1、3、8
@@ -180,9 +175,6 @@ class CoinChangingSolution {
 
 ```
 /**
- * @Author 王硕
- * @Create 2020-10-28
- * @Desc
  * 给出两个字符串，每个字符串包含字符范围限制在「0-9」，
  * 即每个字符串可被认为是一个正整数，且不限制字符串的长度。
  * 如何计算这两个字符串相乘的结果，结果需要同样以字符串的形式返回。
@@ -235,6 +227,9 @@ object MaximumNumMultiplySolution {
 **第四题**
 
 ```
+/**
+ * 代码重构
+ */
 private List<Task> sortByTime(List<Task> list) {
     Collections.sort(list, (lhs, rhs) -> {
         if(lhs.getPriority() == rhs.getPriority()){
