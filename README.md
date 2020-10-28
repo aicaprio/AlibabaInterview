@@ -1,8 +1,6 @@
 **第一题**
 
 ```
-package org.aicaprio
-
 /**
  * @Author 王硕
  * @Create 2020-10-28
